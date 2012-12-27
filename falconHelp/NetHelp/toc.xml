@@ -54,6 +54,10 @@
         <title><![CDATA[Import from Web]]></title>
         <tooltip><![CDATA[Import from Web]]></tooltip>
       </item>
+      <item url="Documents/highspeedupload.htm">
+        <title><![CDATA[High-Speed Upload]]></title>
+        <tooltip><![CDATA[High-Speed Upload]]></tooltip>
+      </item>
       <item url="Documents/prepareentry.htm">
         <title><![CDATA[Prepare Entry]]></title>
         <tooltip><![CDATA[Prepare Entry]]></tooltip>
@@ -117,9 +121,9 @@
       <item url="Documents/dropfoldercontrolpan.htm">
         <title><![CDATA[Drop Folder Control Panel]]></title>
         <tooltip><![CDATA[Drop Folder Control Panel]]></tooltip>
-        <item url="Documents/mediafilestable.htm" window="proc">
-          <title><![CDATA[Media Files Table]]></title>
-          <tooltip><![CDATA[Media Files Table]]></tooltip>
+        <item url="Documents/dropfolderstable.htm" window="proc">
+          <title><![CDATA[Drop Folders Table]]></title>
+          <tooltip><![CDATA[Drop Folders Table]]></tooltip>
         </item>
         <item url="Documents/dropfolderstatuses.htm" window="proc">
           <title><![CDATA[Drop Folder Statuses]]></title>
@@ -246,10 +250,10 @@
         <title><![CDATA[Multiple Rules Based Playlist - Advanced Mode]]></title>
         <tooltip><![CDATA[Multiple Rules Based Playlist - Advanced Mode]]></tooltip>
       </item>
-      <item url="Documents/additionalplaylistco.htm">
-        <title><![CDATA[Additional Playlist Configuration]]></title>
-        <tooltip><![CDATA[Additional Playlist Configuration]]></tooltip>
-      </item>
+    </item>
+    <item url="Documents/additionalplaylistco.htm">
+      <title><![CDATA[Additional Playlist Configuration]]></title>
+      <tooltip><![CDATA[Additional Playlist Configuration]]></tooltip>
       <item url="Documents/creatingaplayerwithm.htm">
         <title><![CDATA[Creating a Player with Multi-tab Playlists]]></title>
         <tooltip><![CDATA[Creating a Player with Multi-tab Playlists]]></tooltip>
@@ -595,8 +599,8 @@
         </item>
       </item>
       <item url="Documents/managingcategoriessp.htm">
-        <title><![CDATA[Managing Categories Specific End-User Permissions]]></title>
-        <tooltip><![CDATA[Managing Categories Specific End-User Permissions]]></tooltip>
+        <title><![CDATA[Managing Categories’ Specific End-User Permissions]]></title>
+        <tooltip><![CDATA[Managing Categories’ Specific End-User Permissions]]></tooltip>
       </item>
       <item url="Documents/bulkactionsformanagi.htm">
         <title><![CDATA[Bulk Actions for Managing Categories Specific End-User Permissions]]></title>
@@ -893,8 +897,8 @@
     </item>
   </item>
   <item url="Documents/publishingtoyoursite.htm">
-    <title><![CDATA[Publishing to your Site]]></title>
-    <tooltip><![CDATA[Publishing to your Site]]></tooltip>
+    <title><![CDATA[Publishing to Your Site]]></title>
+    <tooltip><![CDATA[Publishing to Your Site]]></tooltip>
     <item url="Documents/embeddingaplayerwith.htm">
       <title><![CDATA[Embedding a Player with a Single Entry on your Site]]></title>
       <tooltip><![CDATA[Embedding a Player with a Single Entry on your Site]]></tooltip>
@@ -902,27 +906,39 @@
     <item url="Documents/embeddingaplayerwith1.htm">
       <title><![CDATA[Embedding a Player with a Playlist on your Site]]></title>
       <tooltip><![CDATA[Embedding a Player with a Playlist on your Site]]></tooltip>
-      <item url="Documents/videodeliverysetting.htm">
-        <title><![CDATA[Video Delivery Settings]]></title>
-        <tooltip><![CDATA[Video Delivery Settings]]></tooltip>
+    </item>
+    <item url="Documents/videodeliverysetting.htm">
+      <title><![CDATA[Video Delivery Settings]]></title>
+      <tooltip><![CDATA[Video Delivery Settings]]></tooltip>
+      <item url="Documents/kalturaauto.htm">
+        <title><![CDATA[Kaltura Auto]]></title>
+        <tooltip><![CDATA[Kaltura Auto]]></tooltip>
       </item>
       <item url="Documents/httpprogressivedownl.htm">
         <title><![CDATA[HTTP Progressive Download Delivery]]></title>
         <tooltip><![CDATA[HTTP Progressive Download Delivery]]></tooltip>
       </item>
-      <item url="Documents/adaptivestreamingrtm.htm">
-        <title><![CDATA[Adaptive Streaming RTMP Delivery with Adaptive Bitrate]]></title>
-        <tooltip><![CDATA[Adaptive Streaming RTMP Delivery with Adaptive Bitrate]]></tooltip>
+      <item url="Documents/httpstreamingbasedon.htm">
+        <title><![CDATA[HTTP  Streaming (Based on Akamai’s Technology)]]></title>
+        <tooltip><![CDATA[HTTP  Streaming (Based on Akamai’s Technology)]]></tooltip>
+      </item>
+      <item url="Documents/httpdynamicstreaming.htm">
+        <title><![CDATA[HTTP Dynamic Streaming (HDS) Based on Adobe]]></title>
+        <tooltip><![CDATA[HTTP Dynamic Streaming (HDS) Based on Adobe]]></tooltip>
+      </item>
+      <item url="Documents/rtmpstreaming.htm">
+        <title><![CDATA[RTMP Streaming]]></title>
+        <tooltip><![CDATA[RTMP Streaming]]></tooltip>
       </item>
       <item url="Documents/securetransportrtmpe.htm">
         <title><![CDATA[Secure Transport RTMPE]]></title>
         <tooltip><![CDATA[Secure Transport RTMPE]]></tooltip>
       </item>
-      <item url="Documents/akamaihdnetworkallow.htm">
-        <title><![CDATA[Akamai HD Network – Allows adaptive bit-rate]]></title>
-        <tooltip><![CDATA[Akamai HD Network – Allows adaptive bit-rate]]></tooltip>
-      </item>
     </item>
+  </item>
+  <item url="Documents/embedcodetypes.htm">
+    <title><![CDATA[Embed Code Types]]></title>
+    <tooltip><![CDATA[Embed Code Types]]></tooltip>
     <item url="Documents/addingtheflavorselec.htm">
       <title><![CDATA[Adding the Flavor Selector Module]]></title>
       <tooltip><![CDATA[Adding the Flavor Selector Module]]></tooltip>
@@ -1063,9 +1079,13 @@
   <item url="Documents/advertisingandadnetw.htm">
     <title><![CDATA[Advertising and Ad Networks]]></title>
     <tooltip><![CDATA[Advertising and Ad Networks]]></tooltip>
-    <item url="Documents/playerbranding.htm">
-      <title><![CDATA[Player Branding]]></title>
-      <tooltip><![CDATA[Player Branding]]></tooltip>
+    <item url="Documents/overviewofadvertisin.htm">
+      <title><![CDATA[Overview of Advertising with Kaltura]]></title>
+      <tooltip><![CDATA[Overview of Advertising with Kaltura]]></tooltip>
+      <item url="Documents/playerbranding.htm">
+        <title><![CDATA[Player Branding]]></title>
+        <tooltip><![CDATA[Player Branding]]></tooltip>
+      </item>
     </item>
     <item url="Documents/connectingwithanadse.htm">
       <title><![CDATA[Connecting with an Ad Server]]></title>
@@ -1131,61 +1151,61 @@
         <tooltip><![CDATA[AdapTV]]></tooltip>
       </item>
     </item>
-    <item url="Documents/configuringcompanion.htm">
-      <title><![CDATA[Configuring Companion Ads]]></title>
-      <tooltip><![CDATA[Configuring Companion Ads]]></tooltip>
-      <item url="Documents/companionadsinhtml.htm">
-        <title><![CDATA[Companion Ads in HTML]]></title>
-        <tooltip><![CDATA[Companion Ads in HTML]]></tooltip>
+  </item>
+  <item url="Documents/configuringcompanion.htm">
+    <title><![CDATA[Configuring Companion Ads]]></title>
+    <tooltip><![CDATA[Configuring Companion Ads]]></tooltip>
+    <item url="Documents/companionadsinhtml.htm">
+      <title><![CDATA[Companion Ads in HTML]]></title>
+      <tooltip><![CDATA[Companion Ads in HTML]]></tooltip>
+    </item>
+    <item url="Documents/companionadsinflash.htm">
+      <title><![CDATA[Companion Ads in Flash]]></title>
+      <tooltip><![CDATA[Companion Ads in Flash]]></tooltip>
+      <item url="Documents/tremor.htm" window="proc">
+        <title><![CDATA[Tremor]]></title>
+        <tooltip><![CDATA[Tremor]]></tooltip>
       </item>
-      <item url="Documents/companionadsinflash.htm">
-        <title><![CDATA[Companion Ads in Flash]]></title>
-        <tooltip><![CDATA[Companion Ads in Flash]]></tooltip>
-        <item url="Documents/tremor.htm" window="proc">
-          <title><![CDATA[Tremor]]></title>
-          <tooltip><![CDATA[Tremor]]></tooltip>
-        </item>
-        <item url="Documents/adaptvcompanionads.htm" window="proc">
-          <title><![CDATA[AdapTV Companion Ads]]></title>
-          <tooltip><![CDATA[AdapTV Companion Ads]]></tooltip>
-        </item>
+      <item url="Documents/adaptv1.htm" window="proc">
+        <title><![CDATA[AdapTV]]></title>
+        <tooltip><![CDATA[AdapTV]]></tooltip>
       </item>
-      <item url="Documents/targetingwithanadser.htm">
-        <title><![CDATA[Targeting with an Ad Server]]></title>
-        <tooltip><![CDATA[Targeting with an Ad Server]]></tooltip>
-      </item>
-      <item url="Documents/targetingperviewer.htm">
-        <title><![CDATA[Targeting per Viewer]]></title>
-        <tooltip><![CDATA[Targeting per Viewer]]></tooltip>
-      </item>
-      <item url="Documents/adtargetingviaadplug.htm">
-        <title><![CDATA[Ad Targeting via ad plugin]]></title>
-        <tooltip><![CDATA[Ad Targeting via ad plugin]]></tooltip>
-      </item>
-      <item url="Documents/adtargetingwithtremo.htm">
-        <title><![CDATA[Ad Targeting with Tremor]]></title>
-        <tooltip><![CDATA[Ad Targeting with Tremor]]></tooltip>
-      </item>
-      <item url="Documents/advertisingformobile.htm">
-        <title><![CDATA[Advertising for Mobile Devices]]></title>
-        <tooltip><![CDATA[Advertising for Mobile Devices]]></tooltip>
-      </item>
-      <item url="Documents/adaptvviavast.htm">
-        <title><![CDATA[AdapTV (via VAST)]]></title>
-        <tooltip><![CDATA[AdapTV (via VAST)]]></tooltip>
-      </item>
-      <item url="Documents/connectingwithadserv.htm">
-        <title><![CDATA[Connecting with Ad Servers and Networks via Adap.tv]]></title>
-        <tooltip><![CDATA[Connecting with Ad Servers and Networks via Adap.tv]]></tooltip>
-      </item>
-      <item url="Documents/connectingwithtremor.htm">
-        <title><![CDATA[Connecting with Tremor Media]]></title>
-        <tooltip><![CDATA[Connecting with Tremor Media]]></tooltip>
-      </item>
-      <item url="Documents/differenttypesofadse.htm">
-        <title><![CDATA[Different Types of Ad Servers]]></title>
-        <tooltip><![CDATA[Different Types of Ad Servers]]></tooltip>
-      </item>
+    </item>
+    <item url="Documents/targetingwithanadser.htm">
+      <title><![CDATA[Targeting with an Ad Server]]></title>
+      <tooltip><![CDATA[Targeting with an Ad Server]]></tooltip>
+    </item>
+    <item url="Documents/targetingperviewer.htm">
+      <title><![CDATA[Targeting per Viewer]]></title>
+      <tooltip><![CDATA[Targeting per Viewer]]></tooltip>
+    </item>
+    <item url="Documents/adtargetingviaadplug.htm">
+      <title><![CDATA[Ad Targeting via ad plugin]]></title>
+      <tooltip><![CDATA[Ad Targeting via ad plugin]]></tooltip>
+    </item>
+    <item url="Documents/adtargetingwithtremo.htm">
+      <title><![CDATA[Ad Targeting with Tremor]]></title>
+      <tooltip><![CDATA[Ad Targeting with Tremor]]></tooltip>
+    </item>
+    <item url="Documents/advertisingformobile.htm">
+      <title><![CDATA[Advertising for Mobile Devices]]></title>
+      <tooltip><![CDATA[Advertising for Mobile Devices]]></tooltip>
+    </item>
+    <item url="Documents/adaptvviavast.htm">
+      <title><![CDATA[AdapTV (via VAST)]]></title>
+      <tooltip><![CDATA[AdapTV (via VAST)]]></tooltip>
+    </item>
+    <item url="Documents/connectingwithadserv.htm">
+      <title><![CDATA[Connecting with Ad Servers and Networks via adap.tv]]></title>
+      <tooltip><![CDATA[Connecting with Ad Servers and Networks via adap.tv]]></tooltip>
+    </item>
+    <item url="Documents/connectingwithtremor.htm">
+      <title><![CDATA[Connecting with Tremor Media]]></title>
+      <tooltip><![CDATA[Connecting with Tremor Media]]></tooltip>
+    </item>
+    <item url="Documents/differenttypesofadse.htm">
+      <title><![CDATA[Different Types of Ad Servers]]></title>
+      <tooltip><![CDATA[Different Types of Ad Servers]]></tooltip>
     </item>
     <item url="Documents/kalturaplayeradditio.htm">
       <title><![CDATA[Kaltura Player Additions Related to Ads]]></title>
@@ -1227,8 +1247,8 @@
         <tooltip><![CDATA[Specific Content Interactions Report]]></tooltip>
       </item>
       <item url="Documents/contentcontributions.htm">
-        <title><![CDATA[Content Contributions Reports]]></title>
-        <tooltip><![CDATA[Content Contributions Reports]]></tooltip>
+        <title><![CDATA[Content Contributions Report]]></title>
+        <tooltip><![CDATA[Content Contributions Report]]></tooltip>
       </item>
       <item url="Documents/specificentrymediaso.htm">
         <title><![CDATA[Specific Entry Media Source Contributions Report]]></title>
@@ -1245,10 +1265,6 @@
       <item url="Documents/geographicdistributi.htm">
         <title><![CDATA[Geographic Distribution Reports]]></title>
         <tooltip><![CDATA[Geographic Distribution Reports]]></tooltip>
-      </item>
-      <item url="Documents/specificgeographicre.htm">
-        <title><![CDATA[Specific Geographic Region Distribution Reports]]></title>
-        <tooltip><![CDATA[Specific Geographic Region Distribution Reports]]></tooltip>
       </item>
       <item url="Documents/topsyndications.htm">
         <title><![CDATA[Top Syndications]]></title>

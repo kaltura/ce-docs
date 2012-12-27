@@ -72,6 +72,11 @@
                         "tooltip": "Import from Web"
                     },
                     {
+                        "url": "Documents/highspeedupload.htm",
+                        "title": "High-Speed Upload",
+                        "tooltip": "High-Speed Upload"
+                    },
+                    {
                         "url": "Documents/prepareentry.htm",
                         "title": "Prepare Entry",
                         "tooltip": "Prepare Entry"
@@ -158,10 +163,10 @@
                         "tooltip": "Drop Folder Control Panel",
                         "items": [
                             {
-                                "url": "Documents/mediafilestable.htm",
+                                "url": "Documents/dropfolderstable.htm",
                                 "window": "proc",
-                                "title": "Media Files Table",
-                                "tooltip": "Media Files Table"
+                                "title": "Drop Folders Table",
+                                "tooltip": "Drop Folders Table"
                             },
                             {
                                 "url": "Documents/dropfolderstatuses.htm",
@@ -334,12 +339,14 @@
                         "url": "Documents/multiplerulesbasedpl.htm",
                         "title": "Multiple Rules Based Playlist - Advanced Mode",
                         "tooltip": "Multiple Rules Based Playlist - Advanced Mode"
-                    },
-                    {
-                        "url": "Documents/additionalplaylistco.htm",
-                        "title": "Additional Playlist Configuration",
-                        "tooltip": "Additional Playlist Configuration"
-                    },
+                    }
+                ]
+            },
+            {
+                "url": "Documents/additionalplaylistco.htm",
+                "title": "Additional Playlist Configuration",
+                "tooltip": "Additional Playlist Configuration",
+                "items": [
                     {
                         "url": "Documents/creatingaplayerwithm.htm",
                         "title": "Creating a Player with Multi-tab Playlists",
@@ -838,8 +845,8 @@
                     },
                     {
                         "url": "Documents/managingcategoriessp.htm",
-                        "title": "Managing Categories Specific End-User Permissions",
-                        "tooltip": "Managing Categories Specific End-User Permissions"
+                        "title": "Managing Categories’ Specific End-User Permissions",
+                        "tooltip": "Managing Categories’ Specific End-User Permissions"
                     },
                     {
                         "url": "Documents/bulkactionsformanagi.htm",
@@ -1242,8 +1249,8 @@
     },
     {
         "url": "Documents/publishingtoyoursite.htm",
-        "title": "Publishing to your Site",
-        "tooltip": "Publishing to your Site",
+        "title": "Publishing to Your Site",
+        "tooltip": "Publishing to Your Site",
         "items": [
             {
                 "url": "Documents/embeddingaplayerwith.htm",
@@ -1253,12 +1260,17 @@
             {
                 "url": "Documents/embeddingaplayerwith1.htm",
                 "title": "Embedding a Player with a Playlist on your Site",
-                "tooltip": "Embedding a Player with a Playlist on your Site",
+                "tooltip": "Embedding a Player with a Playlist on your Site"
+            },
+            {
+                "url": "Documents/videodeliverysetting.htm",
+                "title": "Video Delivery Settings",
+                "tooltip": "Video Delivery Settings",
                 "items": [
                     {
-                        "url": "Documents/videodeliverysetting.htm",
-                        "title": "Video Delivery Settings",
-                        "tooltip": "Video Delivery Settings"
+                        "url": "Documents/kalturaauto.htm",
+                        "title": "Kaltura Auto",
+                        "tooltip": "Kaltura Auto"
                     },
                     {
                         "url": "Documents/httpprogressivedownl.htm",
@@ -1266,22 +1278,34 @@
                         "tooltip": "HTTP Progressive Download Delivery"
                     },
                     {
-                        "url": "Documents/adaptivestreamingrtm.htm",
-                        "title": "Adaptive Streaming RTMP Delivery with Adaptive Bitrate",
-                        "tooltip": "Adaptive Streaming RTMP Delivery with Adaptive Bitrate"
+                        "url": "Documents/httpstreamingbasedon.htm",
+                        "title": "HTTP  Streaming (Based on Akamai’s Technology)",
+                        "tooltip": "HTTP  Streaming (Based on Akamai’s Technology)"
+                    },
+                    {
+                        "url": "Documents/httpdynamicstreaming.htm",
+                        "title": "HTTP Dynamic Streaming (HDS) Based on Adobe",
+                        "tooltip": "HTTP Dynamic Streaming (HDS) Based on Adobe"
+                    },
+                    {
+                        "url": "Documents/rtmpstreaming.htm",
+                        "title": "RTMP Streaming",
+                        "tooltip": "RTMP Streaming"
                     },
                     {
                         "url": "Documents/securetransportrtmpe.htm",
                         "title": "Secure Transport RTMPE",
                         "tooltip": "Secure Transport RTMPE"
-                    },
-                    {
-                        "url": "Documents/akamaihdnetworkallow.htm",
-                        "title": "Akamai HD Network – Allows adaptive bit-rate",
-                        "tooltip": "Akamai HD Network – Allows adaptive bit-rate"
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "url": "Documents/embedcodetypes.htm",
+        "title": "Embed Code Types",
+        "tooltip": "Embed Code Types",
+        "items": [
             {
                 "url": "Documents/addingtheflavorselec.htm",
                 "title": "Adding the Flavor Selector Module",
@@ -1488,9 +1512,16 @@
         "tooltip": "Advertising and Ad Networks",
         "items": [
             {
-                "url": "Documents/playerbranding.htm",
-                "title": "Player Branding",
-                "tooltip": "Player Branding"
+                "url": "Documents/overviewofadvertisin.htm",
+                "title": "Overview of Advertising with Kaltura",
+                "tooltip": "Overview of Advertising with Kaltura",
+                "items": [
+                    {
+                        "url": "Documents/playerbranding.htm",
+                        "title": "Player Branding",
+                        "tooltip": "Player Branding"
+                    }
+                ]
             },
             {
                 "url": "Documents/connectingwithanadse.htm",
@@ -1577,82 +1608,82 @@
                         "tooltip": "AdapTV"
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "url": "Documents/configuringcompanion.htm",
+        "title": "Configuring Companion Ads",
+        "tooltip": "Configuring Companion Ads",
+        "items": [
+            {
+                "url": "Documents/companionadsinhtml.htm",
+                "title": "Companion Ads in HTML",
+                "tooltip": "Companion Ads in HTML"
             },
             {
-                "url": "Documents/configuringcompanion.htm",
-                "title": "Configuring Companion Ads",
-                "tooltip": "Configuring Companion Ads",
+                "url": "Documents/companionadsinflash.htm",
+                "title": "Companion Ads in Flash",
+                "tooltip": "Companion Ads in Flash",
                 "items": [
                     {
-                        "url": "Documents/companionadsinhtml.htm",
-                        "title": "Companion Ads in HTML",
-                        "tooltip": "Companion Ads in HTML"
+                        "url": "Documents/tremor.htm",
+                        "window": "proc",
+                        "title": "Tremor",
+                        "tooltip": "Tremor"
                     },
                     {
-                        "url": "Documents/companionadsinflash.htm",
-                        "title": "Companion Ads in Flash",
-                        "tooltip": "Companion Ads in Flash",
-                        "items": [
-                            {
-                                "url": "Documents/tremor.htm",
-                                "window": "proc",
-                                "title": "Tremor",
-                                "tooltip": "Tremor"
-                            },
-                            {
-                                "url": "Documents/adaptvcompanionads.htm",
-                                "window": "proc",
-                                "title": "AdapTV Companion Ads",
-                                "tooltip": "AdapTV Companion Ads"
-                            }
-                        ]
-                    },
-                    {
-                        "url": "Documents/targetingwithanadser.htm",
-                        "title": "Targeting with an Ad Server",
-                        "tooltip": "Targeting with an Ad Server"
-                    },
-                    {
-                        "url": "Documents/targetingperviewer.htm",
-                        "title": "Targeting per Viewer",
-                        "tooltip": "Targeting per Viewer"
-                    },
-                    {
-                        "url": "Documents/adtargetingviaadplug.htm",
-                        "title": "Ad Targeting via ad plugin",
-                        "tooltip": "Ad Targeting via ad plugin"
-                    },
-                    {
-                        "url": "Documents/adtargetingwithtremo.htm",
-                        "title": "Ad Targeting with Tremor",
-                        "tooltip": "Ad Targeting with Tremor"
-                    },
-                    {
-                        "url": "Documents/advertisingformobile.htm",
-                        "title": "Advertising for Mobile Devices",
-                        "tooltip": "Advertising for Mobile Devices"
-                    },
-                    {
-                        "url": "Documents/adaptvviavast.htm",
-                        "title": "AdapTV (via VAST)",
-                        "tooltip": "AdapTV (via VAST)"
-                    },
-                    {
-                        "url": "Documents/connectingwithadserv.htm",
-                        "title": "Connecting with Ad Servers and Networks via Adap.tv",
-                        "tooltip": "Connecting with Ad Servers and Networks via Adap.tv"
-                    },
-                    {
-                        "url": "Documents/connectingwithtremor.htm",
-                        "title": "Connecting with Tremor Media",
-                        "tooltip": "Connecting with Tremor Media"
-                    },
-                    {
-                        "url": "Documents/differenttypesofadse.htm",
-                        "title": "Different Types of Ad Servers",
-                        "tooltip": "Different Types of Ad Servers"
+                        "url": "Documents/adaptv1.htm",
+                        "window": "proc",
+                        "title": "AdapTV",
+                        "tooltip": "AdapTV"
                     }
                 ]
+            },
+            {
+                "url": "Documents/targetingwithanadser.htm",
+                "title": "Targeting with an Ad Server",
+                "tooltip": "Targeting with an Ad Server"
+            },
+            {
+                "url": "Documents/targetingperviewer.htm",
+                "title": "Targeting per Viewer",
+                "tooltip": "Targeting per Viewer"
+            },
+            {
+                "url": "Documents/adtargetingviaadplug.htm",
+                "title": "Ad Targeting via ad plugin",
+                "tooltip": "Ad Targeting via ad plugin"
+            },
+            {
+                "url": "Documents/adtargetingwithtremo.htm",
+                "title": "Ad Targeting with Tremor",
+                "tooltip": "Ad Targeting with Tremor"
+            },
+            {
+                "url": "Documents/advertisingformobile.htm",
+                "title": "Advertising for Mobile Devices",
+                "tooltip": "Advertising for Mobile Devices"
+            },
+            {
+                "url": "Documents/adaptvviavast.htm",
+                "title": "AdapTV (via VAST)",
+                "tooltip": "AdapTV (via VAST)"
+            },
+            {
+                "url": "Documents/connectingwithadserv.htm",
+                "title": "Connecting with Ad Servers and Networks via adap.tv",
+                "tooltip": "Connecting with Ad Servers and Networks via adap.tv"
+            },
+            {
+                "url": "Documents/connectingwithtremor.htm",
+                "title": "Connecting with Tremor Media",
+                "tooltip": "Connecting with Tremor Media"
+            },
+            {
+                "url": "Documents/differenttypesofadse.htm",
+                "title": "Different Types of Ad Servers",
+                "tooltip": "Different Types of Ad Servers"
             },
             {
                 "url": "Documents/kalturaplayeradditio.htm",
@@ -1708,8 +1739,8 @@
                     },
                     {
                         "url": "Documents/contentcontributions.htm",
-                        "title": "Content Contributions Reports",
-                        "tooltip": "Content Contributions Reports"
+                        "title": "Content Contributions Report",
+                        "tooltip": "Content Contributions Report"
                     },
                     {
                         "url": "Documents/specificentrymediaso.htm",
@@ -1732,11 +1763,6 @@
                         "url": "Documents/geographicdistributi.htm",
                         "title": "Geographic Distribution Reports",
                         "tooltip": "Geographic Distribution Reports"
-                    },
-                    {
-                        "url": "Documents/specificgeographicre.htm",
-                        "title": "Specific Geographic Region Distribution Reports",
-                        "tooltip": "Specific Geographic Region Distribution Reports"
                     },
                     {
                         "url": "Documents/topsyndications.htm",
