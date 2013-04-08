@@ -49,12 +49,17 @@
             {
                 "url": "Documents/theuploadtab.htm",
                 "title": "The Upload Tab",
-                "tooltip": "The Upload Tab",
+                "tooltip": "The Upload Tab"
+            },
+            {
+                "url": "Documents/uploadmedia.htm",
+                "title": "Upload Media",
+                "tooltip": "Upload Media",
                 "items": [
                     {
-                        "url": "Documents/uploadmedia.htm",
-                        "title": "Upload Media",
-                        "tooltip": "Upload Media"
+                        "url": "Documents/highspeedupload.htm",
+                        "title": "High-Speed Upload",
+                        "tooltip": "High-Speed Upload"
                     },
                     {
                         "url": "Documents/uploadfromdesktop.htm",
@@ -65,22 +70,19 @@
                         "url": "Documents/recordfromawebcam.htm",
                         "title": "Record from a Webcam",
                         "tooltip": "Record from a Webcam"
-                    },
-                    {
-                        "url": "Documents/importfromweb.htm",
-                        "title": "Import from Web",
-                        "tooltip": "Import from Web"
-                    },
-                    {
-                        "url": "Documents/highspeedupload.htm",
-                        "title": "High-Speed Upload",
-                        "tooltip": "High-Speed Upload"
-                    },
-                    {
-                        "url": "Documents/prepareentry.htm",
-                        "title": "Prepare Entry",
-                        "tooltip": "Prepare Entry"
-                    },
+                    }
+                ]
+            },
+            {
+                "url": "Documents/importfromweb.htm",
+                "title": "Import from Web",
+                "tooltip": "Import from Web"
+            },
+            {
+                "url": "Documents/prepareentry.htm",
+                "title": "Prepare Entry",
+                "tooltip": "Prepare Entry",
+                "items": [
                     {
                         "url": "Documents/preparevideoaudioent.htm",
                         "title": "Prepare Video/Audio Entry",
@@ -150,12 +152,7 @@
             {
                 "url": "Documents/automatedcontentinge.htm",
                 "title": "Automated Content Ingestion via a Drop Folder",
-                "tooltip": "Automated Content Ingestion via a Drop Folder"
-            },
-            {
-                "url": "Documents/usingadropfolder.htm",
-                "title": "Using a Drop Folder",
-                "tooltip": "Using a Drop Folder",
+                "tooltip": "Automated Content Ingestion via a Drop Folder",
                 "items": [
                     {
                         "url": "Documents/dropfoldercontrolpan.htm",
@@ -318,18 +315,18 @@
             {
                 "url": "Documents/playliststab.htm",
                 "title": "Playlists Tab",
-                "tooltip": "Playlists Tab",
+                "tooltip": "Playlists Tab"
+            },
+            {
+                "url": "Documents/creatingamanualplayl.htm",
+                "title": "Creating a Manual Playlist",
+                "tooltip": "Creating a Manual Playlist"
+            },
+            {
+                "url": "Documents/creatingarulebasedpl.htm",
+                "title": "Creating a Rule Based Playlist",
+                "tooltip": "Creating a Rule Based Playlist",
                 "items": [
-                    {
-                        "url": "Documents/creatingamanualplayl.htm",
-                        "title": "Creating a Manual Playlist",
-                        "tooltip": "Creating a Manual Playlist"
-                    },
-                    {
-                        "url": "Documents/creatingarulebasedpl.htm",
-                        "title": "Creating a Rule Based Playlist",
-                        "tooltip": "Creating a Rule Based Playlist"
-                    },
                     {
                         "url": "Documents/definingarule.htm",
                         "title": "Defining a Rule",
@@ -378,13 +375,13 @@
                         "url": "Documents/playerlist.htm",
                         "title": "Player List",
                         "tooltip": "Player List"
-                    },
-                    {
-                        "url": "Documents/selectthetypeofplaye.htm",
-                        "title": "Select the Type of Player",
-                        "tooltip": "Select the Type of Player"
                     }
                 ]
+            },
+            {
+                "url": "Documents/selectthetypeofplaye.htm",
+                "title": "Select the Type of Player",
+                "tooltip": "Select the Type of Player"
             },
             {
                 "url": "Documents/configuringtheplayer.htm",
@@ -440,16 +437,10 @@
                                 "tooltip": "Controls"
                             },
                             {
-                                "url": "Documents/viraldistribution.htm",
+                                "url": "Documents/distributionanduseri.htm",
                                 "window": "proc",
-                                "title": "Viral & Distribution",
-                                "tooltip": "Viral & Distribution"
-                            },
-                            {
-                                "url": "Documents/ugcuserinteraction.htm",
-                                "window": "proc",
-                                "title": "UGC & User Interaction",
-                                "tooltip": "UGC & User Interaction"
+                                "title": "Distribution and User Interaction",
+                                "tooltip": "Distribution and User Interaction"
                             },
                             {
                                 "url": "Documents/subtitlesandtranscri.htm",
@@ -458,16 +449,16 @@
                                 "tooltip": "Subtitles and Transcriptions"
                             },
                             {
-                                "url": "Documents/relatedvideosgallery.htm",
+                                "url": "Documents/security.htm",
                                 "window": "proc",
-                                "title": "Related Videos Gallery",
-                                "tooltip": "Related Videos Gallery"
+                                "title": "Security",
+                                "tooltip": "Security"
                             },
                             {
-                                "url": "Documents/custombuttons.htm",
+                                "url": "Documents/analytics.htm",
                                 "window": "proc",
-                                "title": "Custom Buttons",
-                                "tooltip": "Custom Buttons"
+                                "title": "Analytics",
+                                "tooltip": "Analytics"
                             },
                             {
                                 "url": "Documents/additionalparameters.htm",
@@ -488,13 +479,13 @@
                                 "tooltip": "Examples"
                             }
                         ]
-                    },
-                    {
-                        "url": "Documents/configuringtheplayer3.htm",
-                        "title": "Configuring the Player Style",
-                        "tooltip": "Configuring the Player Style"
                     }
                 ]
+            },
+            {
+                "url": "Documents/configuringtheplayer3.htm",
+                "title": "Configuring the Player Style",
+                "tooltip": "Configuring the Player Style"
             }
         ]
     },
@@ -592,23 +583,6 @@
                         "url": "Documents/settingvaluesformeta.htm",
                         "title": "Setting Values for Metadata Fields - Per Category",
                         "tooltip": "Setting Values for Metadata Fields - Per Category"
-                    }
-                ]
-            },
-            {
-                "url": "Documents/relatedvideosgallery1.htm",
-                "title": "Related Videos Gallery",
-                "tooltip": "Related Videos Gallery",
-                "items": [
-                    {
-                        "url": "Documents/relatedvideossource.htm",
-                        "title": "Related Videos Source",
-                        "tooltip": "Related Videos Source"
-                    },
-                    {
-                        "url": "Documents/configureautoplayfor.htm",
-                        "title": "Configure Autoplay for Related Videos",
-                        "tooltip": "Configure Autoplay for Related Videos"
                     }
                 ]
             }
@@ -741,6 +715,19 @@
                                 "window": "proc",
                                 "title": "Adding or Removing IP Addresses",
                                 "tooltip": "Adding or Removing IP Addresses"
+                            }
+                        ]
+                    },
+                    {
+                        "url": "Documents/restrictingaccessfor.htm",
+                        "title": "Restricting Access for Specific Flavors",
+                        "tooltip": "Restricting Access for Specific Flavors",
+                        "items": [
+                            {
+                                "url": "Documents/addingorremovingflav.htm",
+                                "window": "proc",
+                                "title": "Adding or Removing Flavors",
+                                "tooltip": "Adding or Removing Flavors"
                             }
                         ]
                     }
@@ -1021,6 +1008,16 @@
                         "tooltip": "Rejecting Content using the Moderation Tab"
                     }
                 ]
+            },
+            {
+                "url": "Documents/approvingcontentusin.htm",
+                "title": "Approving Content using the Moderation tab",
+                "tooltip": "Approving Content using the Moderation tab"
+            },
+            {
+                "url": "Documents/banningusersusingthe.htm",
+                "title": "Banning Users using the Moderation tab",
+                "tooltip": "Banning Users using the Moderation tab"
             }
         ]
     },
@@ -1085,7 +1082,14 @@
             {
                 "url": "Documents/livestreamingusingth.htm",
                 "title": "Live Streaming Using the KMC",
-                "tooltip": "Live Streaming Using the KMC"
+                "tooltip": "Live Streaming Using the KMC",
+                "items": [
+                    {
+                        "url": "Documents/digitalvideorecorder.htm",
+                        "title": "Digital Video Recorder (DVR)",
+                        "tooltip": "Digital Video Recorder (DVR)"
+                    }
+                ]
             },
             {
                 "url": "Documents/workflowforsettingup.htm",
@@ -1101,12 +1105,14 @@
                         "url": "Documents/creatingalivestreami.htm",
                         "title": "Creating a Live Streaming Entry in the KMC",
                         "tooltip": "Creating a Live Streaming Entry in the KMC"
-                    },
-                    {
-                        "url": "Documents/multiplebitrateencod.htm",
-                        "title": "Multiple Bitrate Encoding",
-                        "tooltip": "Multiple Bitrate Encoding"
-                    },
+                    }
+                ]
+            },
+            {
+                "url": "Documents/multiplebitrateencod.htm",
+                "title": "Multiple Bitrate Encoding",
+                "tooltip": "Multiple Bitrate Encoding",
+                "items": [
                     {
                         "url": "Documents/configuringthelivest.htm",
                         "title": "Configuring the Live Stream Parameters in the KMC",
@@ -1288,33 +1294,41 @@
                         "tooltip": "HTTP Dynamic Streaming (HDS) Based on Adobe"
                     },
                     {
-                        "url": "Documents/rtmpstreaming.htm",
-                        "title": "RTMP Streaming",
-                        "tooltip": "RTMP Streaming"
+                        "url": "Documents/rtmpstreaminglegacy.htm",
+                        "title": "RTMP Streaming (Legacy)",
+                        "tooltip": "RTMP Streaming (Legacy)"
                     },
                     {
                         "url": "Documents/securetransportrtmpe.htm",
-                        "title": "Secure Transport RTMPE",
-                        "tooltip": "Secure Transport RTMPE"
+                        "title": "Secure Transport RTMPE (Legacy)",
+                        "tooltip": "Secure Transport RTMPE (Legacy)"
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "url": "Documents/embedcodetypes.htm",
-        "title": "Embed Code Types",
-        "tooltip": "Embed Code Types",
-        "items": [
+            },
+            {
+                "url": "Documents/embedcodetypes.htm",
+                "title": "Embed Code Types",
+                "tooltip": "Embed Code Types"
+            },
+            {
+                "url": "Documents/searchengineoptimiza.htm",
+                "title": "Search Engine Optimization",
+                "tooltip": "Search Engine Optimization"
+            },
+            {
+                "url": "Documents/supportforhttpsembed.htm",
+                "title": "Support for HTTPS Embed Code",
+                "tooltip": "Support for HTTPS Embed Code"
+            },
             {
                 "url": "Documents/addingtheflavorselec.htm",
                 "title": "Adding the Flavor Selector Module",
                 "tooltip": "Adding the Flavor Selector Module",
                 "items": [
                     {
-                        "url": "Documents/mobilesupport.htm",
-                        "title": "Mobile Support",
-                        "tooltip": "Mobile Support"
+                        "url": "Documents/mobileandhtml5suppor.htm",
+                        "title": "Mobile and HTML5 Support",
+                        "tooltip": "Mobile and HTML5 Support"
                     }
                 ]
             }
@@ -1394,14 +1408,14 @@
                         "tooltip": "Syndicating to a Standard MRSS Feed (Yahoo)"
                     },
                     {
-                        "url": "Documents/searchengineoptimiza.htm",
+                        "url": "Documents/searchengineoptimiza1.htm",
                         "title": "Search Engine Optimization (SEO)",
                         "tooltip": "Search Engine Optimization (SEO)"
                     },
                     {
                         "url": "Documents/keybenefits1.htm",
-                        "title": "Key benefits",
-                        "tooltip": "Key benefits"
+                        "title": "Key Benefits",
+                        "tooltip": "Key Benefits"
                     }
                 ]
             },
@@ -1414,6 +1428,11 @@
                         "url": "Documents/syndicatingtogoogle.htm",
                         "title": "Syndicating to Google",
                         "tooltip": "Syndicating to Google"
+                    },
+                    {
+                        "url": "Documents/createalandingpage.htm",
+                        "title": "Create a Landing Page",
+                        "tooltip": "Create a Landing Page"
                     },
                     {
                         "url": "Documents/googlewebmastertasks.htm",
@@ -1666,34 +1685,44 @@
                 "tooltip": "Advertising for Mobile Devices"
             },
             {
-                "url": "Documents/adaptvviavast.htm",
-                "title": "AdapTV (via VAST)",
-                "tooltip": "AdapTV (via VAST)"
-            },
-            {
-                "url": "Documents/connectingwithadserv.htm",
-                "title": "Connecting with Ad Servers and Networks via adap.tv",
-                "tooltip": "Connecting with Ad Servers and Networks via adap.tv"
-            },
-            {
-                "url": "Documents/connectingwithtremor.htm",
-                "title": "Connecting with Tremor Media",
-                "tooltip": "Connecting with Tremor Media"
-            },
-            {
-                "url": "Documents/differenttypesofadse.htm",
-                "title": "Different Types of Ad Servers",
-                "tooltip": "Different Types of Ad Servers"
-            },
-            {
-                "url": "Documents/kalturaplayeradditio.htm",
-                "title": "Kaltura Player Additions Related to Ads",
-                "tooltip": "Kaltura Player Additions Related to Ads"
+                "url": "Documents/howtolocatetheadtagu.htm",
+                "title": "How to Locate the Ad Tag URL",
+                "tooltip": "How to Locate the Ad Tag URL",
+                "items": [
+                    {
+                        "url": "Documents/adaptvviavast.htm",
+                        "title": "AdapTV (via VAST)",
+                        "tooltip": "AdapTV (via VAST)"
+                    },
+                    {
+                        "url": "Documents/connectingwithadserv.htm",
+                        "title": "Connecting with Ad Servers and Networks via adap.tv",
+                        "tooltip": "Connecting with Ad Servers and Networks via adap.tv"
+                    },
+                    {
+                        "url": "Documents/connectingwithtremor.htm",
+                        "title": "Connecting with Tremor Media",
+                        "tooltip": "Connecting with Tremor Media"
+                    },
+                    {
+                        "url": "Documents/differenttypesofadse.htm",
+                        "title": "Different Types of Ad Servers",
+                        "tooltip": "Different Types of Ad Servers"
+                    }
+                ]
             },
             {
                 "url": "Documents/troubleshooting.htm",
                 "title": "Troubleshooting",
-                "tooltip": "Troubleshooting"
+                "tooltip": "Troubleshooting",
+                "items": [
+                    {
+                        "url": "Documents/forvastads.htm",
+                        "window": "proc",
+                        "title": "For VAST ads:",
+                        "tooltip": "For VAST ads:"
+                    }
+                ]
             }
         ]
     },
@@ -1814,10 +1843,42 @@
                 ]
             },
             {
-                "url": "Documents/exportinganalyticsto.htm",
-                "title": "Exporting Analytics to a CSV File",
-                "tooltip": "Exporting Analytics to a CSV File",
+                "url": "Documents/systemreports.htm",
+                "title": "System Reports",
+                "tooltip": "System Reports"
+            },
+            {
+                "url": "Documents/platformreports.htm",
+                "title": "Platform Reports",
+                "tooltip": "Platform Reports",
                 "items": [
+                    {
+                        "url": "Documents/analyticsdatatypes.htm",
+                        "title": "Analytics Data Types",
+                        "tooltip": "Analytics Data Types"
+                    },
+                    {
+                        "url": "Documents/platformsdrilldownre.htm",
+                        "title": "Platform’s Drill Down Reports",
+                        "tooltip": "Platform’s Drill Down Reports"
+                    }
+                ]
+            },
+            {
+                "url": "Documents/operatingsystemsrepo.htm",
+                "title": "Operating Systems Report",
+                "tooltip": "Operating Systems Report"
+            },
+            {
+                "url": "Documents/browsersreport.htm",
+                "title": "Browsers’ Report",
+                "tooltip": "Browsers’ Report",
+                "items": [
+                    {
+                        "url": "Documents/exportinganalyticsto.htm",
+                        "title": "Exporting Analytics to a CSV File",
+                        "tooltip": "Exporting Analytics to a CSV File"
+                    },
                     {
                         "url": "Documents/sendinganalyticseven.htm",
                         "title": "Sending Analytics Events to Third Parties",

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <settings>
   <theme>
-    <layout>themes/Gemini/layout.html</layout>
-    <stylesheet>css/wijmo/rocket/jquery-wijmo.css</stylesheet>
+    <layout>themes/Gemini_theme/layout.html</layout>
+    <stylesheet>css/wijmo/aristo/jquery-wijmo.css</stylesheet>
   </theme>
   <references>
-    <join>themes/Gemini/settings.theme.xml</join>
-    <join>themes/Gemini/settings.en-us.xml</join>
+    <join>themes/Gemini_theme/settings.theme.xml</join>
+    <join>themes/Gemini_theme/settings.en-us.xml</join>
     <css>LinksExt/C1H_HTML.css</css>
   </references>
   <strings>
